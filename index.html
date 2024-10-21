@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QRS Links Grid</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            font-size: 24px;
+            color: #333;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+            max-width: 800px;
+        }
+
+        .grid-item {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+            text-decoration: none;
+            font-size: 18px;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+
+        .grid-item:hover {
+            transform: scale(1.05);
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to QRS Resources Overview</h1>
+    <h2>Training Resources</h2>
+<div class="grid-container training-container">
+        <a href="https://anandvip.github.io/qrs-menu-4/" target="_blank" class="grid-item">QRS Menu 4</a>
+        <a href="https://anandvip.github.io/qrs-menu-3/" target="_blank" class="grid-item">QRS Menu 3</a>
+        <a href="https://anandvip.github.io/qrs-sales/" target="_blank" class="grid-item">QRS Sales</a>
+        <a href="https://anandvip.github.io/qrs-role-play/" target="_blank" class="grid-item">QRS Role Play</a>
+        <a href="https://anandvip.github.io/qrs-training/" target="_blank" class="grid-item">QRS Training</a>
+        <a href="https://anandvip.github.io/qrs-training-2/" target="_blank" class="grid-item">QRS Training 2</a>
+<hr style="width: 100%; border: 1px solid black; margin: 10px 0;">
+</div>
+<h2>Quiz Resources</h2>
+<div class="grid-container quiz-container">
+        <a href="https://anandvip.github.io/qrs-quiz-1/" target="_blank" class="grid-item">QRS Quiz 1</a>
+</div>
+</body>
+</html>
